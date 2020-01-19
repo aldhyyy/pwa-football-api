@@ -1,0 +1,128 @@
+$v30: 30px;
+
+.csidenav {
+   padding: 30px 0 30px 30px;
+   margin-bottom: 15px;
+
+   >.csidenav__title {
+      margin: 0 0 15px 0;
+   }
+
+   >.csidenav__desc {
+      margin: 0;
+      line-height: normal;
+   }
+}
+
+#body-content {
+   // padding-top: 15px;
+}
+
+// Card Custom
+.ccard {
+   box-shadow: 0px 1px 10px rgba(27, 94, 32, 0.2);
+   border-radius: 4px;
+
+   &:hover {
+      box-shadow: 0px 1px 15px rgba(27, 94, 32, 0.4);
+   }
+
+   &:active {
+      box-shadow: 0px 1px 4px rgba(27, 94, 32, 0.4);
+   }
+
+   img {
+      left: 22px !important;
+      max-width: 60% !important;
+      max-height: 90px !important;
+   }
+
+   .card-title {
+      font-size: 18px !important;
+      font-weight: bold;
+   }
+}
+
+// Nav Custom
+.cnav {
+   box-shadow: 0px 1px 10px rgba(27, 94, 32, 0.2);
+   position: sticky;
+   top: 0;
+   z-index: 999;
+
+}
+
+.ctitle {
+   margin-bottom: 30px;
+   text-align: center;
+   padding: 30px;
+   // border-radius: 4px;
+   // border-radius: 38px 38px 0px 0px;
+   box-shadow: none;
+   font-weight: bold;
+   color: black;
+   position: relative;
+
+   &::after {
+      content: '';
+      position: absolute;
+      height: 4px;
+      width: 30px;
+      margin: auto;
+      background-color: #356f39;
+      top: 45px;
+      left: 0;
+      bottom: 0;
+      right: 0;
+   }
+}
+
+.cbg__green {
+   background-color: #356f39;
+}
+
+.ctext__green {
+   color: #356f39;
+}
+
+.mb-30 {
+   margin-bottom: $v30 !important;
+}
+
+.mt-30 {
+   margin-top: $v30 !important;
+}
+
+.my-30 {
+   margin-top: $v30 !important;
+   margin-bottom: $v30 !important;
+}
+
+.m-0 {
+   margin: 0 !important;
+}
+
+.m-30 {
+   margin: $v30 !important;
+}
+
+.pb-30 {
+   margin-bottom: $v30 !important;
+}
+
+.pt-30 {
+   margin-top: $v30 !important;
+}
+
+.py-30 {
+   margin-top: $v30 !important;
+   margin-bottom: $v30 !important;
+}
+
+.p-0 {
+   padding: 0 !important;
+}
+
+.p-30 {
+   padding: $v30 !important;
+}
